@@ -2,9 +2,6 @@
 
 ## A clean, beautiful and responsive portfolio
 
-
-## This portfolio was borrowedn from Software developer as a template.
-
 ## Table of Contents
 
 
