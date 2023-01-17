@@ -122,7 +122,7 @@ MEDIUM_USERNAME = "YOUR MEDIUM USERNAME"
 
 Set `displayMediumBlogs` to true or false in portofolio.js to display fetched Medium blogs, defaults to true.
 
-## Change and customize every section according to your need.
+### Change and customize every section according to your need.
 
 #### Personalize page content in `/src/portfolio.js` & modify it as per your need. You will also need to modify `index.html` to change the title and metadata to provide accurate SEO for your personal portfolio.
 
