@@ -23,10 +23,10 @@ const greeting = {
   username: "Mutai Gilbert",
   title: "Hi all, I'm Mutai",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 with a love for JavaScript, Ruby, AWS, C, React. Open Source Contributor. Open to new opportunities."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://docs.google.com/document/d/1KkdEQv1CopFRnLgGtSMJyl8mYlx8299VvpVds9Ypiu4/edit?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -34,7 +34,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/Mutai-Gilbert",
-  linkedin: "https://www.linkedin.com/in/mutai-gilbert-2a5a42137/",
+  linkedin: "https://www.linkedin.com/in/mutai-kipkoech/",
   gmail: "mutaigilbert85@gmail.com",
   twitter: "https://mobile.twitter.com/Nerdmutai",
   stackoverflow: "https://stackoverflow.com/users/18264454/gilbert-mutai",
@@ -70,50 +70,18 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "css3",
       fontAwesomeClassname: "fab fa-css3-alt"
     },
-    // {
-    //   skillName: "sass",
-    //   fontAwesomeClassname: "fab fa-sass"
-    // },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
-    // {
-    //   skillName: "reactjs",
-    //   fontAwesomeClassname: "fab fa-react"
-    // },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "reactjs",
+      fontAwesomeClassname: "fab fa-react"
     },
-    // {
-    //   skillName: "swift",
-    //   fontAwesomeClassname: "fab fa-swift"
-    // },
-    // {
-    //   skillName: "npm",
-    //   fontAwesomeClassname: "fab fa-npm"
-    // },
-    // {
-    //   skillName: "sql-database",
-    //   fontAwesomeClassname: "fas fa-database"
-    // },
-    // {
-    //   skillName: "aws",
-    //   fontAwesomeClassname: "fab fa-aws"
-    // },
-    // {
-    //   skillName: "firebase",
-    //   fontAwesomeClassname: "fas fa-fire"
-    // },
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
-    // {
-    //   skillName: "docker",
-    //   fontAwesomeClassname: "fab fa-docker"
-    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -124,23 +92,43 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "Dedan Kimathi University",
+      logo: require("./assets/images/dekut.jpeg"),
+      subHeader: "Bachelor of Science in Actuarial Science",
+      duration: "September 2014 - April 2018",
+      desc: "The program is designed to prepare students for a career as an actuary, which involves using mathematical and statistical models to assess financial risks and develop strategies to minimize them.",
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Coursera",
+      logo: require("./assets/images/coursera.png"),
+      subHeader: "Introduction to Web Development with HTML, CSS, JavaScript",
+      duration: "July 2022",
+      desc: "Ranked top 10% in the program. Took courses about css3, html5, javascript, bootstrap, git...",
+      descBullets: ["An online non-credit course authorized by IBM Skills Network and offered through Coursera."]    },
+    {
+      schoolName: "Coursera",
+      logo: require("./assets/images/coursera.png"),
+      subHeader: "Introduction to Cloud Computing",
+      duration: "July 2022",
+      desc: "Ranked top 10% in the program. Took courses about Cloud Native, Devops, Hybrid MultiCloud, Cloud Computing, Iaas, PaaS, SaaS, ...",
+      descBullets: ["An online non-credit course authorized by IBM and offered through Coursera"]
+    },
+    {
+      schoolName: "Microverse",
+      logo: require("./assets/images/javaScript.png"),
+      subHeader: "Microverse JavaScript Module",
+      duration: "March 2023",
+      desc: "Took courses about JavaScript.",
+      descBullets: ["Students earn this credential after demonstrating understanding and mastery of JavaScript. During the course of this module, they build several projects using JavaScript while pair-programming remotely with an international team of software developers."]
+    }
+    ,
+    {
+      schoolName: "Microverse",
+      logo: require("./assets/images/reactRedux.png"),
+      subHeader: "Microverse React & Redux Module",
+      duration: "April 2023",
+      desc: "Took courses about React, Redux, JavaScript, Frond End Web Development.",
+      descBullets: ["Students earn this credential after demonstrating thorough understanding and mastery of React and Redux. Over the course of this module, students build and develop multiple projects using React and Redux, working both independently and while remotely pair-programming."]
     }
   ]
 };
@@ -156,7 +144,7 @@ const techStack = {
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "20%"
     },
     {
       Stack: "Programming",
@@ -172,30 +160,29 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Managing Director",
+      company: "Kanga Feeds Ltd",
+      companylogo: require("./assets/images/kangafeedslogo.jpg"),
+      date: "Jan 2020 – Jan 2022",
+      desc: "Managing Director Kanga Feeds Ltd",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Successfully managed and supervised all financial operations and functions of a company.",
+        "Implemented and maintained efficient accounting systems to ensure accurate and up-to-date financial records.",
+        "Demonstrated exceptional leadership skills in leading and developing staff within the accounts department."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
+      role: "Full Stack Developer",
+      company: "The Tech-Gaa Hub",
       companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "Jan 2023 – Present",
+      desc: "Easily Adaptable · Networking · React.js · Leadership · Problem Solving · JavaScript.",
+      descBullets: [
+        "Develop web applications and websites using front-end and back-end technologies.",
+        "Design, develop, and maintain databases using database management systems.",
+        "Collaborate with other developers, designers, and project managers to complete projects.."
+      ]
     },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
   ]
 };
 
@@ -210,29 +197,29 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Github Projects",
+  subtitle: "SOME PROJECTS THAT I HAVE WORKED ON",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/bookstore.png"),
+      projectName: "Bookstore",
+      projectDesc: "The Bookstore project built with Redux is designed to help users keep track of their progress in reading books.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://book-store-ten-blush.vercel.app"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/reactDiseases.png"),
+      projectName: "React Diseases",
+      projectDesc: "COVID-19-Reports is a web application hosted on GitHub that delivers accurate and up-to-date COVID-19 statistics sourced from trustworthy health organizations. This user-friendly platform provides users with a seamless experience to track data by country or region, with an added feature of historical data analysis.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://react-diseases.onrender.com/"
         }
       ]
     }
@@ -298,7 +285,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -310,17 +297,11 @@ const blogSection = {
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://medium.com/@mutaigilbert85/transitioning-from-an-entrepreneur-to-a-react-developer-49ade780fbe7",
+      title: "Transitioning From an Entrepreneur to a React Developer.",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "#mytechjourney"
     },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -341,7 +322,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -352,27 +333,27 @@ const podcastSection = {
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    ""
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+254703252051",
+  email_address: "mutaigilbert85@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
+  userName: "iam_pkoech", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
