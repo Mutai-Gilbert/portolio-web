@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 with a love for JavaScript, Ruby, AWS, C, React. Open Source Contributor. Open to new opportunities."
   ),
   resumeLink:
-    "https://docs.google.com/document/d/1KkdEQv1CopFRnLgGtSMJyl8mYlx8299VvpVds9Ypiu4/edit?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1zgJGxXrILj0ribUq8UcDv-wlB0KrHLL6/view?usp=share_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
