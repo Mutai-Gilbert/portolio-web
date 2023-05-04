@@ -24,13 +24,8 @@ To view a live example, **[click here](https://developerfolio.js.org/)**.
 
 
 
-## Linking Portfolio to GitHub
-
-
-## Linking blogs section to Medium
-
-
-## Deployment
+## Live Link
+(https://mutaikoech.netlify.app)
 
 
 #### Deploying to Netlify
