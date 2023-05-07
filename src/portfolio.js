@@ -201,7 +201,7 @@ const bigProjects = {
   subtitle: "SOME PROJECTS THAT I HAVE WORKED ON",
   projects: [
     {
-      image: require("./assets/images/bookstore.jpg"),
+      image: require("./assets/images/books.jpg"),
       projectName: "Bookstore",
       projectDesc: "The Bookstore project built with Redux is designed to help users keep track of their progress in reading books.",
       footerLink: [
