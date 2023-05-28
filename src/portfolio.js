@@ -201,6 +201,17 @@ const bigProjects = {
   subtitle: "SOME PROJECTS THAT I HAVE WORKED ON",
   projects: [
     {
+      image: require("./assets/images/online-store.png"),
+      projectName: "Online Trends Store",
+      projectDesc: "Online Store is a full-stack e-commerce solution that allows you to sell your products online developed with react and tailwind css",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://onlinetrends.netlify.app/"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/books.jpg"),
       projectName: "Bookstore",
       projectDesc: "The Bookstore project built with Redux is designed to help users keep track of their progress in reading books.",
@@ -209,7 +220,6 @@ const bigProjects = {
           name: "Visit Website",
           url: "https://book-store-ten-blush.vercel.app"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
