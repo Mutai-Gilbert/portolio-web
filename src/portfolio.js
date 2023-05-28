@@ -201,7 +201,18 @@ const bigProjects = {
   subtitle: "SOME PROJECTS THAT I HAVE WORKED ON",
   projects: [
     {
-      image: require("./assets/images/bookstore.jpg"),
+      image: require("./assets/images/online-store.png"),
+      projectName: "Online Trends Store",
+      projectDesc: "Online Store is a full-stack e-commerce solution that allows you to sell your products online developed with react and tailwind css",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://onlinetrends.netlify.app/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/books.jpg"),
       projectName: "Bookstore",
       projectDesc: "The Bookstore project built with Redux is designed to help users keep track of their progress in reading books.",
       footerLink: [
@@ -209,7 +220,6 @@ const bigProjects = {
           name: "Visit Website",
           url: "https://book-store-ten-blush.vercel.app"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
@@ -264,7 +274,7 @@ const achievementSection = {
       title: "Google Code-In Finalist",
       subtitle:
         "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/nextuLogo.webp"),
+      image: require("./assets/images/pwa.webp"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
@@ -285,7 +295,7 @@ const achievementSection = {
       title: "Google Assistant Action",
       subtitle:
         "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/nextuLogo.webp"),
+      image: require("./assets/images/pwa.webp"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
