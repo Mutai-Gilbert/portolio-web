@@ -202,6 +202,18 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/bookstore.png"),
+      projectName: "Budget App",
+      projectDesc: "Budget app is a web app that helps users categorize and manage their transactions for easy expense tracking. Stay organized and gain insights into your spending habits with this user-friendly tool.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://budget-nt3b.onrender.com"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/bookstore.png"),
       projectName: "Bookstore",
       projectDesc: "The Bookstore project built with Redux is designed to help users keep track of their progress in reading books.",
       footerLink: [
