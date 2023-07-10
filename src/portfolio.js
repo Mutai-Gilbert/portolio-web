@@ -201,7 +201,7 @@ const bigProjects = {
   subtitle: "SOME PROJECTS THAT I HAVE WORKED ON",
   projects: [
     {
-      image: require("./assets/images/bookstore.png"),
+      image: require("./assets/images/budgetapp.png"),
       projectName: "Budget App",
       projectDesc: "Budget app is a web app that helps users categorize and manage their transactions for easy expense tracking. Stay organized and gain insights into your spending habits with this user-friendly tool.",
       footerLink: [
@@ -209,7 +209,6 @@ const bigProjects = {
           name: "Visit Website",
           url: "https://budget-nt3b.onrender.com"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
@@ -221,7 +220,6 @@ const bigProjects = {
           name: "Visit Website",
           url: "https://book-store-ten-blush.vercel.app"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
