@@ -212,6 +212,16 @@ const bigProjects = {
       ]
     },
     {
+      image: require("./assets/images/online-store.png"),
+      projectName: "Online Trends Store",
+      projectDesc: "Online Store is a full-stack e-commerce solution that allows you to sell your products online developed with react and tailwind css",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://onlinetrends.netlify.app/"
+        }]
+    },
+    {
       image: require("./assets/images/budgetapp.png"),
       projectName: "Budget App",
       projectDesc: "Budget app is a web app that helps users categorize and manage their transactions for easy expense tracking. Stay organized and gain insights into your spending habits with this user-friendly tool.",
