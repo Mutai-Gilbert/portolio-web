@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 with a love for JavaScript, Ruby, AWS, C, React. Open Source Contributor. Open to new opportunities."
   ),
   resumeLink:
-    "https://docs.google.com/document/d/1KkdEQv1CopFRnLgGtSMJyl8mYlx8299VvpVds9Ypiu4/edit?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1zgJGxXrILj0ribUq8UcDv-wlB0KrHLL6/view?usp=share_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -219,7 +219,8 @@ const bigProjects = {
         {
           name: "Visit Website",
           url: "https://onlinetrends.netlify.app/"
-        }]
+        }
+      ]
     },
     {
       image: require("./assets/images/budgetapp.png"),
@@ -244,13 +245,37 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/reactDiseases.png"),
+      image: require("./assets/images/reactdiseases.jpg"),
       projectName: "React Diseases",
       projectDesc: "COVID-19-Reports is a web application hosted on GitHub that delivers accurate and up-to-date COVID-19 statistics sourced from trustworthy health organizations. This user-friendly platform provides users with a seamless experience to track data by country or region, with an added feature of historical data analysis.",
       footerLink: [
         {
           name: "Visit Website",
           url: "https://react-diseases.onrender.com/"
+        }
+      ]
+    }
+    ,
+    {
+      image: require("./assets/images/ipaddressbg.jpg"),
+      projectName: "IP Address Tracker",
+      projectDesc: "The IP Address Tracker project is a frontend coding challenge designed by Frontend Mentor to help developers improve their coding skills. The task is to build an IP Address Tracker app that looks as close to the design as possible. To get the IP address locations, the app uses the IP Geolocation API by IPify, and to generate the map.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://ip-adress-tracker-with-react.vercel.app/"
+        }
+      ]
+    }
+    ,
+    {
+      image: require("./assets/images/movies.jpg"),
+      projectName: "Tv Amaze",
+      projectDesc: "The JavaScript capstone project is about building web application based on an external API. We selected an API that provides data about Movies and then built the webapp around it.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://mutai-gilbert.github.io/TVamaze-API-based-webapp/dist/"
         }
       ]
     }
@@ -271,7 +296,7 @@ const achievementSection = {
       title: "Google Code-In Finalist",
       subtitle:
         "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+      image: require("./assets/images/pwa.webp"),
       imageAlt: "Google Code-In Logo",
       footerLink: [
         {
@@ -292,7 +317,7 @@ const achievementSection = {
       title: "Google Assistant Action",
       subtitle:
         "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+      image: require("./assets/images/pwa.webp"),
       imageAlt: "Google Assistant Action Logo",
       footerLink: [
         {
