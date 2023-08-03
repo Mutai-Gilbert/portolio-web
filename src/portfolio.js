@@ -23,7 +23,7 @@ const greeting = {
   username: "Mutai Gilbert",
   title: "Hi all, I'm Mutai",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 with a love for JavaScript, Ruby, AWS, C, React. Open Source Contributor. Open to new opportunities."
+    "A passionate Full Stack Software Developer 🚀 with a love for JavaScript, Ruby, Ruby on Rails, Redux, SQL, POSTGRESQL, C, React. Open Source Contributor. Open to new opportunities."
   ),
   resumeLink:
     "https://docs.google.com/document/d/1KkdEQv1CopFRnLgGtSMJyl8mYlx8299VvpVds9Ypiu4/edit?usp=sharing", // Set to empty to hide the button
@@ -38,8 +38,6 @@ const socialMediaLinks = {
   gmail: "mutaigilbert85@gmail.com",
   twitter: "https://mobile.twitter.com/Nerdmutai",
   stackoverflow: "https://stackoverflow.com/users/18264454/gilbert-mutai",
-  // Instagram, Twitter and Kaggle are also supported in the links!
-  // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
 };
 
@@ -47,14 +45,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Full Stack Web Developer | Entrepreneurial Mindset | Dedicated to Crafting Innovative Solutions and Building Dynamic Teams",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Full-stack development, where I excel in using technologies such as Ruby on Rails, React & Redux, Next.js, Tailwind Css, Bootstrap, SQL , PostgreSQL, HTML/CSS."
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ With Agile Software Development, Object-Oriented Programming, and Test-driven development, I foster a collaborative and efficient development process."),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Working with diverse remote teams across cultures and countries, my strong communication skills have been instrumental in achieving successful project outcomes."
     )
   ],
 
@@ -82,6 +80,30 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
     },
+    {
+      skillName: "ruby",
+      fontAwesomeClassname: "fab fa-ruby"
+    },
+    {
+      skillName: "rails",
+      fontAwesomeClassname: "fab fa-rails"
+    },
+    {
+      skillName: "nodejs",
+      fontAwesomeClassname: "fab fa-node-js"
+    },
+    {
+      skillName: "postgresql",
+      fontAwesomeClassname: "fab fa-postgresql"
+    },
+    {
+      skillName: "bootstrap",
+      fontAwesomeClassname: "fab fa-bootstrap"
+    },
+    {
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git"
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
