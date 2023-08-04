@@ -23,7 +23,7 @@ const greeting = {
   username: "Mutai Gilbert",
   title: "Hi all, I'm Mutai",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 with a love for JavaScript, Ruby, Ruby on Rails, Redux, SQL, POSTGRESQL, C, React. Open Source Contributor. Open to new opportunities."
+    "A passionate Full Stack Software Developer 🚀 with a love for JavaScript, Ruby, Ruby on Rails, Redux, SQL, PostgreSQL, C, React. Open Source Contributor. Open to new opportunities."
   ),
   resumeLink:
     "https://docs.google.com/document/d/1KkdEQv1CopFRnLgGtSMJyl8mYlx8299VvpVds9Ypiu4/edit?usp=sharing", // Set to empty to hide the button
@@ -142,8 +142,7 @@ const educationInfo = {
       duration: "March 2023",
       desc: "Took courses about JavaScript.",
       descBullets: ["Students earn this credential after demonstrating understanding and mastery of JavaScript. During the course of this module, they build several projects using JavaScript while pair-programming remotely with an international team of software developers."]
-    }
-    ,
+    },
     {
       schoolName: "Microverse",
       logo: require("./assets/images/reactRedux.png"),
@@ -151,6 +150,30 @@ const educationInfo = {
       duration: "April 2023",
       desc: "Took courses about React, Redux, JavaScript, Frond End Web Development.",
       descBullets: ["Students earn this credential after demonstrating thorough understanding and mastery of React and Redux. Over the course of this module, students build and develop multiple projects using React and Redux, working both independently and while remotely pair-programming."]
+    },
+    {
+      schoolName: "Microverse",
+      logo: require("./assets/images/rubydatabases.png"),
+      subHeader: "Microverse Ruby/Databases Module",
+      duration: "4th June 2023",
+      desc: "Took courses about Ruby/Databases, Back End Web Development.",
+      descBullets: ["Students earn this credential after demonstrating thorough understanding and mastery of Ruby/Databases. Over the course of this module, students build and develop multiple projects using Ruby/Databases, working both independently and while remotely pair-programming."]
+    },
+    {
+      schoolName: "Microverse",
+      logo: require("./assets/images/rubyonrails.png"),
+      subHeader: "Microverse Ruby on Rails Module",
+      duration: "9th July 2023",
+      desc: "Took courses about Ruby on Rails, Back End Web Development.",
+      descBullets: ["Students earn this credential after demonstrating thorough understanding and mastery of Ruby on Rails. Over the course of this module, students build and develop multiple projects using Ruby on Rails, working both independently and while remotely pair-programming"]
+    },
+    {
+      schoolName: "Microverse",
+      logo: require("./assets/images/finalcapstone.png"),
+      subHeader: "Microverse Final Capstone Module",
+      duration: "30th July 2023",
+      desc: "Took courses about React, Redux, JavaScript, Front End Web Development and connecting Back End Web Development using Ruby on Rails.",
+      descBullets: ["Students earn this credential after demonstrating thorough understanding and mastery of React, Redux, JavaScript, Front End Web Development and connecting Back End Web Development using Ruby on Rails. Over the course of this module, students build and develop multiple projects using React, Redux, JavaScript, Front End Web Development and connecting Back End Web Development using Ruby on Rails, working both independently and while remotely pair-programming."]
     }
   ]
 };
