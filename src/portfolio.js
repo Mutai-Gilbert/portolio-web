@@ -246,6 +246,17 @@ const bigProjects = {
   subtitle: "SOME PROJECTS THAT I HAVE WORKED ON",
   projects: [
     {
+      image: require("./assets/images/doctor.png"),
+      projectName: "Doctor Appointment",
+      projectDesc: "Doctors Appointments frontend is react forntend application for doctor book appoinemnts. This applications is responsive and users can load, create, and delete doctors and reservations. Users need to sign up or sign in to access application. They can sign up or sign in using the sign up and login forms.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://doctor-appointment-cx5g.onrender.com/"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/bookstore.png"),
       projectName: "Bookstore",
       projectDesc: "The Bookstore project built with Redux is designed to help users keep track of their progress in reading books.",
