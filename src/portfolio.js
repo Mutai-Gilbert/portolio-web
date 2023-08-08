@@ -257,6 +257,17 @@ const bigProjects = {
       ]
     },
     {
+      image: require("./assets/images/budgetapp.png"),
+      projectName: "Budget manager",
+      projectDesc: "Budget manager is a web app that helps users categorize and manage their transactions for easy expense tracking. Stay organized and gain insights into your spending habits with this user-friendly tool.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://budget-manager-web-service.onrender.com/"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/bookstore.png"),
       projectName: "Bookstore",
       projectDesc: "The Bookstore project built with Redux is designed to help users keep track of their progress in reading books.",
@@ -278,7 +289,40 @@ const bigProjects = {
           url: "https://react-diseases.onrender.com/"
         }
       ]
-    }
+    },
+    {
+      image: require("./assets/images/spaceTraveller.png"),
+      projectName: "Space Travelers' Hub ",
+      projectDesc: "Space Travelers' Hub is a group project that focuses on using React and Redux to create a website that provides users with information on space travel.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://react-redux-group-project.vercel.app/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/ipAddress.png"),
+      projectName: "The IP Address Tracker ",
+      projectDesc: "The IP Address Tracker project is a frontend coding challenge designed by Frontend Mentor to help developers improve their coding skills. The task is to build an IP Address Tracker app that looks as close to the design as possible. To get the IP address locations, the app uses the IP Geolocation API by IPify, and to generate the map.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://ip-adress-tracker-with-react.vercel.app/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/invoicer.png"),
+      projectName: "Invoicer",
+      projectDesc: "Create invoices for yourself, your business, your company and your clients.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://create-invoicer.netlify.app/"
+        }
+      ]
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
