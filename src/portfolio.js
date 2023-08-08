@@ -253,6 +253,10 @@ const bigProjects = {
         {
           name: "Visit Website",
           url: "https://doctor-appointment-cx5g.onrender.com/"
+        },
+        {
+          name: "Github Link",
+          url: "https://github.com/zeff96/doctor_appoitment_front_end"
         }
       ]
     },
@@ -264,7 +268,27 @@ const bigProjects = {
         {
           name: "Visit Website",
           url: "https://budget-manager-web-service.onrender.com/"
+        },
+        {
+          name: "Github Link",
+          url: "https://github.com/Mutai-Gilbert/budget_manager"
         }
+      ]
+    },
+    {
+      image: require("./assets/images/online.png"),
+      projectName: "Online Store",
+      projectDesc: "Online Store is a full-stack e-commerce solution that allows you to sell your products online",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://onlinetrends.netlify.app/"
+        },
+        {
+          name: "Github Link",
+          url: "https://github.com/Mutai-Gilbert/Online-Store"
+        }
+        //  you can add extra buttons here.
       ]
     },
     {
@@ -275,6 +299,10 @@ const bigProjects = {
         {
           name: "Visit Website",
           url: "https://book-store-ten-blush.vercel.app"
+        },
+        {
+          name: "Github Link",
+          url: "https://github.com/Mutai-Gilbert/BookStore"
         }
         //  you can add extra buttons here.
       ]
@@ -287,6 +315,10 @@ const bigProjects = {
         {
           name: "Visit Website",
           url: "https://react-diseases.onrender.com/"
+        },
+        {
+          name: "Github Link",
+          url: "https://github.com/Mutai-Gilbert/React-Diseases"
         }
       ]
     },
@@ -298,6 +330,10 @@ const bigProjects = {
         {
           name: "Visit Website",
           url: "https://react-redux-group-project.vercel.app/"
+        },
+        {
+          name: "Github Link",
+          url: "https://github.com/Mutai-Gilbert/React-Redux-group-project"
         }
       ]
     },
@@ -309,6 +345,10 @@ const bigProjects = {
         {
           name: "Visit Website",
           url: "https://ip-adress-tracker-with-react.vercel.app/"
+        },
+        {
+          name: "Github Link",
+          url: "https://github.com/Mutai-Gilbert/Ip-Address-Tracker"
         }
       ]
     },
@@ -320,6 +360,10 @@ const bigProjects = {
         {
           name: "Visit Website",
           url: "https://create-invoicer.netlify.app/"
+        },
+        {
+          name: "Github Link",
+          url: "https://github.com/Mutai-Gilbert/invoicer_v2"
         }
       ]
     },
@@ -331,6 +375,10 @@ const bigProjects = {
         {
           name: "Visit Website",
           url: "https://mutai-gilbert.github.io/TVamaze-API-based-webapp/dist/"
+        },
+        {
+          name: "Github Link",
+          url: "https://github.com/Mutai-Gilbert/TVamaze-API-based-webapp"
         }
       ]
     }
