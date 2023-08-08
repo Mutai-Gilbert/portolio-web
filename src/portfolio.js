@@ -323,6 +323,17 @@ const bigProjects = {
         }
       ]
     },
+    {
+      image: require("./assets/images/tvAmaze.png"),
+      projectName: "Tv Amaze",
+      projectDesc: "The JavaScript capstone project is about building web application based on an external API. We selected an API that provides data about Movies and then built the webapp around it.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://mutai-gilbert.github.io/TVamaze-API-based-webapp/dist/"
+        }
+      ]
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
