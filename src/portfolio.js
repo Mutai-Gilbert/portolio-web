@@ -461,6 +461,12 @@ const blogSection = {
       description:
         "#mytechjourney"
     },
+    {
+      url: "https://medium.com/@mutaigilbert85/from-limited-means-to-thriving-dreams-a-journey-of-entrepreneurial-triumph-6fcdedc1a56d",
+      title: "From Limited Means to Thriving Dreams: A Journey of Entrepreneurial Triumph",
+      description:
+        "#mytechjourney"
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
