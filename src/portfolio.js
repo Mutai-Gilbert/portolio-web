@@ -471,7 +471,7 @@ const blogSection = {
       url: "https://medium.com/@mutaigilbert85/the-first-interview-99b53fe50d52",
       title: "The First Interview",
       description:
-        "#"
+        "#mytechjourney"
     },
   ],
   display: true // Set false to hide this section, defaults to true
