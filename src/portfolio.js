@@ -477,7 +477,13 @@ const blogSection = {
       url: "https://medium.com/@mutaigilbert85/unlocking-the-code-navigating-challenges-to-master-r-programming-and-mathematical-modeling-6122ad2539f9",
       title: "Unlocking the Code: Navigating Challenges to Master R Programming and Mathematical Modeling",
       description:
-        "#Embarking on a Learning Odyssey"
+        "#Embarking on a Learning Odyssey", 
+    },
+    {
+      url: "https://medium.com/@mutaigilbert85/from-actuarial-science-to-full-stack-dreams-overcoming-tutorial-hell-to-thrive-in-coding-cddbfc9bf847",
+      title: "From Actuarial Science to Full Stack Dreams: Overcoming Tutorial Hell to Thrive in Coding",
+      description:
+        "#mytechjourney", 
     },
   ],
   display: true // Set false to hide this section, defaults to true
