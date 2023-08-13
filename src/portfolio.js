@@ -485,6 +485,12 @@ const blogSection = {
       description:
         "#mytechjourney", 
     },
+    {
+      url: "https://medium.com/@mutaigilbert85/unveiling-the-world-through-pages-a-journey-of-reading-focus-and-personal-growth-7d5f2727bcea",
+      title: "Unveiling the World Through Pages: A Journey of Reading, Focus, and Personal Growth",
+      description:
+        "#mytechjourney", 
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
