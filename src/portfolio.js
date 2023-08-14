@@ -491,6 +491,12 @@ const blogSection = {
       description:
         "#mytechjourney", 
     },
+    {
+      url: "https://medium.com/@mutaigilbert85/from-couch-to-confidence-a-fitness-journey-of-overcoming-fears-and-achieving-growth-b471be71a6d1",
+      title: "From Couch to Confidence: A Fitness Journey of Overcoming Fears and Achieving Growth",
+      description:
+        "#mytechjourney", 
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
