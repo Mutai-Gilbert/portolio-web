@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 with a love for JavaScript, Ruby, Ruby on Rails, Redux, SQL, PostgreSQL, C, React. Open Source Contributor. Open to new opportunities."
   ),
   resumeLink:
-    "https://docs.google.com/document/d/1KkdEQv1CopFRnLgGtSMJyl8mYlx8299VvpVds9Ypiu4/edit", // Set to empty to hide the button
+    "https://github.com/Mutai-Gilbert/portolio-web/blob/dev/src/assets/images/Gilbert_Mutai_Resume.pdf", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
