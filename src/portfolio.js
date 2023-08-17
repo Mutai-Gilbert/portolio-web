@@ -542,7 +542,7 @@ const contactInfo = {
 // Twitter Section
 
 const twitterDetails = {
-  userName: "iam_pkoech", //Replace "twitter" with your twitter username without @
+  userName: "iam_Pkoech", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
