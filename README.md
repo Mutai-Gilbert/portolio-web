@@ -1,4 +1,4 @@
-# Software Developer Folio ⚡️ 
+# Full Stack Developer Portfolio ⚡️ 
 
 ## A clean, beautiful and responsive portfolio
 
@@ -25,7 +25,7 @@ To view a live example, **[click here](https://developerfolio.js.org/)**.
 
 
 ## Live Link
-(https://mutaikoech.netlify.app)
+(http://dev--mutaikoech.netlify.app)
 
 
 #### Deploying to Netlify
@@ -47,24 +47,10 @@ To view a live example, **[click here](https://developerfolio.js.org/)**.
 
 
 ## For the Future
-If you can help us with these. Please don't hesitate to open a [pull request](https://github.com/saadpasta/developerFolio/pulls).
-
+If you can help us with these. Please don't hesitate to open a [pull request](https://github.com/Mutai-Gilbert/portolio-web)
 - Connect with LinkedIn to get Summary, Skills, Education and Experience
 
 - Move to Gatsby
-
-- Add More Sections
-
-## Project Maintainers 
-
-<table>
-  <tr>
-    <td align="center"><a href="http://saadpasta.github.io"><img src="https://avatars2.githubusercontent.com/u/23307811?v=4" width="100px;" alt=""/><br /><sub><b>Saad Pasta</b></sub></a></td>
-    <td align="center"><a href="https://github.com/kartikcho"><img src="https://avatars1.githubusercontent.com/u/48270786?v=4" width="100px;" alt=""/><br /><sub><b>Kartik Choudhary</b></sub></a></td>
-    <td align="center"><a href="https://github.com/naveen521kk"><img src="https://avatars1.githubusercontent.com/u/49693820?v=4" width="100px;" alt=""/><br /><sub><b>Naveen M K</b></sub></a></td>
-    <td align="center"><a href="http://www.muhammadhasham.com"><img src="https://avatars0.githubusercontent.com/u/17927649?v=4" width="100px;" alt=""/><br /><sub><b>Muhammad Hasham</b></sub></a></td>
-  </tr>
-</table>
 
 ## Contributors 
 
