@@ -52,6 +52,49 @@
   margin-top: -4rem;
 }
 
+.contact-form {
+  padding: 2rem;
+  border-radius: 10px;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+
+  form {
+    display: flex;
+    flex-direction: column;
+
+    input,
+    textarea,
+    button {
+      margin-bottom: 1rem;
+      padding: 0.5rem;
+      border: none;
+      border-radius: 5px;
+      color: $textColorDark;
+    }
+
+    input,
+    textarea {
+      font-size: 16px;
+    }
+
+    textarea {
+      resize: vertical;
+      min-height: 100px;
+    }
+
+    button {
+      font-weight: bold;
+      cursor: pointer;
+      transition: background-color 0.3s, color 0.3s;
+
+      &:hover {
+        // background-color: darken($primaryColor, 10%); // Use your primary color here
+      }
+    }
+  }
+}
+
 /* Media Query */
 @media (max-width: 1380px), (max-width: 768px) {
   .contact-title {
