@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
+import "./Form.scss";
 
 function Form() {
     const [formData, setFormData] = useState({
@@ -52,4 +53,4 @@ function Form() {
   )
 }
 
-export default Form
+export default Form;
