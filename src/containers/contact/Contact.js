@@ -9,6 +9,7 @@ import StyleContext from "../../contexts/StyleContext";
 
 export default function Contact() {
   const {isDark} = useContext(StyleContext);
+<<<<<<< HEAD
   // const [formData, setFormData] = useState({
   //   name: "",
   //   email: "",
@@ -27,6 +28,8 @@ export default function Contact() {
   //   event.preventDefault();
   //   // Process form data here, e.g. send an email or perform other actions
   // };
+=======
+>>>>>>> 06a7932553ffe59aa31dc690501527f66ec39dcf
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main contact-margin-top" id="contact">
@@ -80,6 +83,7 @@ export default function Contact() {
               ></img>
             )}
           </div>
+<<<<<<< HEAD
           {/* <div className="contact-form">
           <h2 className="form-title">Get in Touch</h2>
           <form onSubmit={handleSubmit}>
@@ -106,6 +110,8 @@ export default function Contact() {
             <button type="submit">Submit</button>
           </form>
         </div> */}
+=======
+>>>>>>> 06a7932553ffe59aa31dc690501527f66ec39dcf
         </div>
       </div>
     </Fade>
