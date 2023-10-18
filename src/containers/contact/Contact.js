@@ -1,4 +1,4 @@
-import React, {useContext, useState} from "react";
+import React, {useContext } from "react";
 import "./Contact.scss";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import {illustration, contactInfo} from "../../portfolio";
@@ -9,24 +9,24 @@ import StyleContext from "../../contexts/StyleContext";
 
 export default function Contact() {
   const {isDark} = useContext(StyleContext);
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    message: ""
-  });
+  // const [formData, setFormData] = useState({
+  //   name: "",
+  //   email: "",
+  //   message: ""
+  // });
 
-  const handleInputChange = (event) => {
-    const { name, value } = event.target;
-    setFormData({
-      ...formData,
-      [name]: value
-    });
-  };
+  // const handleInputChange = (event) => {
+  //   const { name, value } = event.target;
+  //   setFormData({
+  //     ...formData,
+  //     [name]: value
+  //   });
+  // };
 
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    // Process form data here, e.g. send an email or perform other actions
-  };
+  // const handleSubmit = (event) => {
+  //   event.preventDefault();
+  //   // Process form data here, e.g. send an email or perform other actions
+  // };
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main contact-margin-top" id="contact">
@@ -80,7 +80,7 @@ export default function Contact() {
               ></img>
             )}
           </div>
-          <div className="contact-form">
+          {/* <div className="contact-form">
           <h2 className="form-title">Get in Touch</h2>
           <form onSubmit={handleSubmit}>
             <input
@@ -105,7 +105,7 @@ export default function Contact() {
             ></textarea>
             <button type="submit">Submit</button>
           </form>
-        </div>
+        </div> */}
         </div>
       </div>
     </Fade>
