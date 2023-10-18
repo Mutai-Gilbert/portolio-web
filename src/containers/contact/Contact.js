@@ -9,27 +9,6 @@ import StyleContext from "../../contexts/StyleContext";
 
 export default function Contact() {
   const {isDark} = useContext(StyleContext);
-<<<<<<< HEAD
-  // const [formData, setFormData] = useState({
-  //   name: "",
-  //   email: "",
-  //   message: ""
-  // });
-
-  // const handleInputChange = (event) => {
-  //   const { name, value } = event.target;
-  //   setFormData({
-  //     ...formData,
-  //     [name]: value
-  //   });
-  // };
-
-  // const handleSubmit = (event) => {
-  //   event.preventDefault();
-  //   // Process form data here, e.g. send an email or perform other actions
-  // };
-=======
->>>>>>> 06a7932553ffe59aa31dc690501527f66ec39dcf
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main contact-margin-top" id="contact">
@@ -83,35 +62,7 @@ export default function Contact() {
               ></img>
             )}
           </div>
-<<<<<<< HEAD
-          {/* <div className="contact-form">
-          <h2 className="form-title">Get in Touch</h2>
-          <form onSubmit={handleSubmit}>
-            <input
-              type="text"
-              name="name"
-              placeholder="Your Name"
-              value={formData.name}
-              onChange={handleInputChange}
-            />
-            <input
-              type="email"
-              name="email"
-              placeholder="Your Email"
-              value={formData.email}
-              onChange={handleInputChange}
-            />
-            <textarea
-              name="message"
-              placeholder="Your Message"
-              value={formData.message}
-              onChange={handleInputChange}
-            ></textarea>
-            <button type="submit">Submit</button>
-          </form>
-        </div> */}
-=======
->>>>>>> 06a7932553ffe59aa31dc690501527f66ec39dcf
+
         </div>
       </div>
     </Fade>
