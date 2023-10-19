@@ -2,7 +2,7 @@ import React from 'react';
 import { useState } from 'react';
 import "./Form.scss";
 
-function Form() {
+export default function Form() {
     const [formData, setFormData] = useState({
         name: "",
         email: "",
@@ -52,5 +52,3 @@ function Form() {
     </div>
   )
 }
-
-export default Form;
