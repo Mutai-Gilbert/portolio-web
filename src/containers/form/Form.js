@@ -1,11 +1,12 @@
 import React from 'react';
 import { Formik } from 'formik';
 import * as Yup from 'yup';
+import './Form.scss';
 
 export default function SignupForm() {
   return (
     <Formik
-      initialValues={{ firstName: '', lastName: '', email: '' }}
+      initialValues={{ firstName: '', lastName: '', email: '', message: '' }}
       validationSchema={Yup.object({
         firstName: Yup.string()
           .max(15, 'Must be 15 characters or less')
@@ -14,6 +15,7 @@ export default function SignupForm() {
           .max(20, 'Must be 20 characters or less')
           .required('Required'),
         email: Yup.string().email('Invalid email address').required('Required'),
+        message: Yup.string().required('Required'),
       })}
       onSubmit={(values, { setSubmitting }) => {
         setTimeout(() => {
@@ -24,35 +26,66 @@ export default function SignupForm() {
     >
       {formik => (
         <form onSubmit={formik.handleSubmit}>
-          <label htmlFor="firstName">First Name</label>
-          <input
-            id="firstName"
-            type="text"
-            {...formik.getFieldProps('firstName')}
-          />
-          {formik.touched.firstName && formik.errors.firstName ? (
-            <div>{formik.errors.firstName}</div>
-          ) : null}
+          <div className="main contact-margin-top" id="form">
+            <div className="form-div-main">
+              <div className="form-group">
+                <label htmlFor="firstName">First Name</label>
+                <input
+                  id="firstName"
+                  type="text"
+                  {...formik.getFieldProps('firstName')}
+                  className="form-control"
+                />
+                {formik.touched.firstName && formik.errors.firstName ? (
+                  <div className="error-message">{formik.errors.firstName}</div>
+                ) : null}
+              </div>
 
-          <label htmlFor="lastName">Last Name</label>
-          <input
-            id="lastName"
-            type="text"
-            {...formik.getFieldProps('lastName')}
-          />
-          {formik.touched.lastName && formik.errors.lastName ? (
-            <div>{formik.errors.lastName}</div>
-          ) : null}
+              <div className="form-group">
+                <label htmlFor="lastName">Last Name</label>
+                <input
+                  id="lastName"
+                  type="text"
+                  {...formik.getFieldProps('lastName')}
+                  className="form-control"
+                />
+                {formik.touched.lastName && formik.errors.lastName ? (
+                  <div className="error-message">{formik.errors.lastName}</div>
+                ) : null}
+              </div>
 
-          <label htmlFor="email">Email Address</label>
-          <input id="email" type="email" {...formik.getFieldProps('email')} />
-          {formik.touched.email && formik.errors.email ? (
-            <div>{formik.errors.email}</div>
-          ) : null}
+              <div className="form-group">
+                <label htmlFor="email">Email Address</label>
+                <input
+                  id="email"
+                  type="email"
+                  {...formik.getFieldProps('email')}
+                  className="form-control"
+                />
+                {formik.touched.email && formik.errors.email ? (
+                  <div className="error-message">{formik.errors.email}</div>
+                ) : null}
+              </div>
 
-          <button type="submit">Submit</button>
+              <div className="form-group">
+                <label htmlFor="message">Message</label>
+                <textarea
+                  id="message"
+                  {...formik.getFieldProps('message')}
+                  className="form-control" // You can style this class for the textarea
+                />
+                {formik.touched.message && formik.errors.message ? (
+                  <div className="error-message">{formik.errors.message}</div>
+                ) : null}
+              </div>
+
+              <button type="submit" className="submit-button">
+                Submit
+              </button>
+            </div>
+          </div>
         </form>
       )}
     </Formik>
   );
-};
+}
