@@ -26,8 +26,8 @@ export default function SignupForm() {
     >
       {formik => (
         <form onSubmit={formik.handleSubmit}>
-          <div className="main contact-margin-top" id="form">
-            <div className="form-div-main">
+          <div className="form-div-main" id="form">
+            <div className="centerContent">
               <div className="form-group">
                 <label htmlFor="firstName">First Name</label>
                 <input
