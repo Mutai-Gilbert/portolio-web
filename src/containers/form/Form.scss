@@ -1,20 +1,16 @@
 @import "../../_globalColor";
 
-.main {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
 
 .form-div-main {
   border-radius: 8px;
-  padding: 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  padding: 1.5rem;
 }
-
-.form-group {
-  margin-bottom: 20px;
+.centerContent {
+  text-align: center;
+  border: 1px solid #ccc;
 }
 
 label {
@@ -23,7 +19,6 @@ label {
 
 .form-control {
   width: 100%;
-  padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 16px;
