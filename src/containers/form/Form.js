@@ -25,66 +25,58 @@ export default function SignupForm() {
       }}
     >
       {formik => (
-        <form onSubmit={formik.handleSubmit}>
-          <div className="form-div-main" id="form">
-            <div className="centerContent">
-              <div className="form-group">
-                <label htmlFor="firstName">First Name</label>
+        <div className="container text-center center-div " id="form">
+          <div className="w-100 border py-5 font-width-bold">
+            <form onSubmit={formik.handleSubmit} className="p-3">
+              <div className="form-floating mb-3">
                 <input
-                  id="firstName"
                   type="text"
-                  {...formik.getFieldProps('firstName')}
+                  id="Name"
                   className="form-control"
+                  placeholder="Enter your full names"
+                  {...formik.getFieldProps('Name')}
                 />
-                {formik.touched.firstName && formik.errors.firstName ? (
-                  <div className="error-message">{formik.errors.firstName}</div>
+                {formik.touched.Name && formik.errors.Name ? (
+                  <div className="error-message">{formik.errors.Name}</div>
                 ) : null}
               </div>
 
-              <div className="form-group">
-                <label htmlFor="lastName">Last Name</label>
-                <input
-                  id="lastName"
-                  type="text"
-                  {...formik.getFieldProps('lastName')}
-                  className="form-control"
-                />
-                {formik.touched.lastName && formik.errors.lastName ? (
-                  <div className="error-message">{formik.errors.lastName}</div>
-                ) : null}
-              </div>
-
-              <div className="form-group">
-                <label htmlFor="email">Email Address</label>
+              <div className="form-floating mb-3">
                 <input
                   id="email"
                   type="email"
                   {...formik.getFieldProps('email')}
                   className="form-control"
+                  name="email"
+                  placeholder="name@example.com"
                 />
                 {formik.touched.email && formik.errors.email ? (
                   <div className="error-message">{formik.errors.email}</div>
                 ) : null}
               </div>
 
-              <div className="form-group">
-                <label htmlFor="message">Message</label>
+              <div className="form-floating">
+                <label htmlFor="message">Comments</label>
                 <textarea
                   id="message"
                   {...formik.getFieldProps('message')}
                   className="form-control" // You can style this class for the textarea
+                  placeholder="Leave a comment here"
                 />
                 {formik.touched.message && formik.errors.message ? (
                   <div className="error-message">{formik.errors.message}</div>
                 ) : null}
               </div>
 
-              <button type="submit" className="submit-button">
+              <button type="submit" className="btn btn-primary rounded-pill mt-3">
                 Submit
               </button>
-            </div>
+
+              
+
+            </form>
           </div>
-        </form>
+        </div>
       )}
     </Formik>
   );
