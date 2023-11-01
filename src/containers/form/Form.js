@@ -25,10 +25,10 @@ export default function SignupForm() {
       }}
     >
       {formik => (
-        <div className="container text-center center-div " id="form">
-          <div className="w-100 border py-5 font-width-bold">
+        <div className="text-center center-div w-100 p-5" id="form">
+          <div className="border py-5 font-width-bold">
             <form onSubmit={formik.handleSubmit} className="p-3">
-              <div className="form-floating mb-3">
+              <div className="mb-2">
                 <input
                   type="text"
                   id="Name"
@@ -40,8 +40,7 @@ export default function SignupForm() {
                   <div className="error-message">{formik.errors.Name}</div>
                 ) : null}
               </div>
-
-              <div className="form-floating mb-3">
+              <div className="mb-2">
                 <input
                   id="email"
                   type="email"
@@ -55,7 +54,7 @@ export default function SignupForm() {
                 ) : null}
               </div>
 
-              <div className="form-floating">
+              <div className="p-4">
                 <label htmlFor="message">Comments</label>
                 <textarea
                   id="message"
@@ -63,17 +62,10 @@ export default function SignupForm() {
                   className="form-control" // You can style this class for the textarea
                   placeholder="Leave a comment here"
                 />
-                {formik.touched.message && formik.errors.message ? (
-                  <div className="error-message">{formik.errors.message}</div>
-                ) : null}
               </div>
-
               <button type="submit" className="btn btn-primary rounded-pill mt-3">
                 Submit
               </button>
-
-              
-
             </form>
           </div>
         </div>
