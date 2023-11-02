@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import { Formik } from 'formik';
 import * as Yup from 'yup';
 import './Form.scss';
+import emailjs from '@emailjs/browser';
 
 export default function SignupForm() {
+
+  const form = useRef();
+
   return (
     <Formik
       initialValues={{ firstName: '', lastName: '', email: '', message: '' }}
@@ -19,7 +23,12 @@ export default function SignupForm() {
       })}
       onSubmit={(values, { setSubmitting }) => {
         setTimeout(() => {
-          alert(JSON.stringify(values, null, 2));
+          emailjs.sendForm('service_4n7u3pq', 'template_61zs028', form.current, 'tznA0wK-fdiNqp6Ob')
+          .then((result) => {
+            console.log(result.text)
+          }, (error) => {
+            console.log(error)
+          });
           setSubmitting(false);
         }, 400);
       }}
@@ -34,6 +43,7 @@ export default function SignupForm() {
                   id="Name"
                   className="form-control"
                   placeholder="Enter your full names"
+                  name="from_name"
                   {...formik.getFieldProps('Name')}
                 />
                 {formik.touched.Name && formik.errors.Name ? (
@@ -46,7 +56,7 @@ export default function SignupForm() {
                   type="email"
                   {...formik.getFieldProps('email')}
                   className="form-control"
-                  name="email"
+                  name="from_email"
                   placeholder="name@example.com"
                 />
                 {formik.touched.email && formik.errors.email ? (
@@ -59,8 +69,9 @@ export default function SignupForm() {
                 <textarea
                   id="message"
                   {...formik.getFieldProps('message')}
-                  className="form-control" // You can style this class for the textarea
+                  className="form-control"
                   placeholder="Leave a comment here"
+                  name="message"
                 />
               </div>
               <button type="submit" className="btn btn-primary rounded-pill mt-3">
